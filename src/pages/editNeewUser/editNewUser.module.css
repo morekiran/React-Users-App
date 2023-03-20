@@ -1,0 +1,46 @@
+.userForm{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userForm>form{
+    background-color: white;
+    width: 380px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem; 
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.userForm>form >input{
+    padding: 0.6rem;
+    outline: none;
+    font-size: medium;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+
+.userForm>form >input[type="submit"]{
+    background-color:darkblue;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border: none;
+    /* border: 0.2px solid lightgray ; */
+}
+
+.userForm>form >a{
+    color:red;
+    text-decoration: none;
+}
